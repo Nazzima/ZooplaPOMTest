@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Web Pages test" verbose="2" parallel="none">
+
+  <test name="Zoopla Test" preserve-order="true" >
+   <classes>
+<class name="seleniumTest.HomePageTest"/>
+<class name="seleniumTest.SearchListPageTest"/>    
+<class name="seleniumTest.DesiredListPageTest"/>
+<class name="seleniumTest.ListAgentPageTest"/> 
+  </classes>
+
+   </test>
+</suite>

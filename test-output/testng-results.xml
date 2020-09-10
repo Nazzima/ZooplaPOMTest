@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Web Pages test" duration-ms="60675" started-at="2020-09-09T22:21:32Z" finished-at="2020-09-09T22:22:32Z">
+    <groups>
+    </groups>
+    <test name="Zoopla Test" duration-ms="60675" started-at="2020-09-09T22:21:32Z" finished-at="2020-09-09T22:22:32Z">
+      <class name="seleniumTest.ListAgentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="setUp" is-config="true" duration-ms="21047" started-at="2020-09-09T18:21:58Z" finished-at="2020-09-09T18:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="agentPageTest()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="agentPageTest" duration-ms="7" started-at="2020-09-09T18:22:19Z" finished-at="2020-09-09T18:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="teardown" is-config="true" duration-ms="13" started-at="2020-09-09T18:22:19Z" finished-at="2020-09-09T18:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="AgentListedPropertiesTest()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="AgentListedPropertiesTest" duration-ms="206" started-at="2020-09-09T18:22:28Z" finished-at="2020-09-09T18:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentListedPropertiesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="teardown" is-config="true" duration-ms="10" started-at="2020-09-09T18:22:29Z" finished-at="2020-09-09T18:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="fifthPropInAgentsListTest()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="fifthPropInAgentsListTest" duration-ms="0" started-at="2020-09-09T18:22:31Z" finished-at="2020-09-09T18:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthPropInAgentsListTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumTest.ListAgentPageTest@1e127982]" name="teardown" is-config="true" duration-ms="17" started-at="2020-09-09T18:22:31Z" finished-at="2020-09-09T18:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumTest.ListAgentPageTest -->
+      <class name="seleniumTest.SearchListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="setUp" is-config="true" duration-ms="7058" started-at="2020-09-09T18:21:37Z" finished-at="2020-09-09T18:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchListPageTitleTest()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="SearchListPageTitleTest" duration-ms="175" started-at="2020-09-09T18:21:44Z" finished-at="2020-09-09T18:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchListPageTitleTest -->
+        <test-method status="PASS" signature="FifthListTest()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="FifthListTest" duration-ms="2700" started-at="2020-09-09T18:22:19Z" finished-at="2020-09-09T18:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FifthListTest -->
+        <test-method status="PASS" signature="ListDescOrderTest()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="ListDescOrderTest" duration-ms="2" started-at="2020-09-09T18:22:31Z" finished-at="2020-09-09T18:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListDescOrderTest -->
+        <test-method status="PASS" signature="ClickFifthProperty()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="ClickFifthProperty" duration-ms="1541" started-at="2020-09-09T18:22:31Z" finished-at="2020-09-09T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFifthProperty -->
+        <test-method status="PASS" signature="fifthListNegativeTest()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="fifthListNegativeTest" duration-ms="19" started-at="2020-09-09T18:22:32Z" finished-at="2020-09-09T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthListNegativeTest -->
+      </class> <!-- seleniumTest.SearchListPageTest -->
+      <class name="seleniumTest.DesiredListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.DesiredListPageTest@78c03f1f]" name="setUp" is-config="true" duration-ms="12879" started-at="2020-09-09T18:21:45Z" finished-at="2020-09-09T18:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TitleOfListTest()[pri:0, instance:seleniumTest.DesiredListPageTest@78c03f1f]" name="TitleOfListTest" duration-ms="108" started-at="2020-09-09T18:21:58Z" finished-at="2020-09-09T18:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleOfListTest -->
+        <test-method status="PASS" signature="getAgentPageTest()[pri:0, instance:seleniumTest.DesiredListPageTest@78c03f1f]" name="getAgentPageTest" duration-ms="6909" started-at="2020-09-09T18:22:21Z" finished-at="2020-09-09T18:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgentPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumTest.DesiredListPageTest@78c03f1f]" name="teardown" is-config="true" duration-ms="38" started-at="2020-09-09T18:22:33Z" finished-at="2020-09-09T18:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumTest.DesiredListPageTest -->
+      <class name="seleniumTest.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.HomePageTest@4fe3c938]" name="setUp" is-config="true" duration-ms="5519" started-at="2020-09-09T18:21:32Z" finished-at="2020-09-09T18:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomePageTitleTest()[pri:0, instance:seleniumTest.HomePageTest@4fe3c938]" name="HomePageTitleTest" duration-ms="43" started-at="2020-09-09T18:21:37Z" finished-at="2020-09-09T18:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method status="PASS" signature="ZooplaLogoTest()[pri:0, instance:seleniumTest.HomePageTest@4fe3c938]" name="ZooplaLogoTest" duration-ms="89" started-at="2020-09-09T18:22:19Z" finished-at="2020-09-09T18:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZooplaLogoTest -->
+        <test-method status="PASS" signature="SearchLocationInputTest()[pri:0, instance:seleniumTest.HomePageTest@4fe3c938]" name="SearchLocationInputTest" duration-ms="2263" started-at="2020-09-09T18:22:29Z" finished-at="2020-09-09T18:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLocationInputTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.HomePageTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="33" started-at="2020-09-09T18:22:32Z" finished-at="2020-09-09T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.SearchListPageTest@5ec0a365]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-09T18:22:32Z" finished-at="2020-09-09T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumTest.HomePageTest -->
+    </test> <!-- Zoopla Test -->
+  </suite> <!-- All Web Pages test -->
+</testng-results>

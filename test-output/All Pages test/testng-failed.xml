@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [All Pages test]" parallel="none">
+  <test name="Zoopla Test(failed)" parallel="none">
+    <classes>
+      <class name="seleniumTest.ListAgentPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="AgentListedPropertiesTest"/>
+          <include name="teardown"/>
+          <include name="fifthPropInAgentsListTest"/>
+        </methods>
+      </class> <!-- seleniumTest.ListAgentPageTest -->
+      <class name="seleniumTest.DesiredListPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getAgentPageTest"/>
+        </methods>
+      </class> <!-- seleniumTest.DesiredListPageTest -->
+      <class name="seleniumTest.SearchListPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ClickFifthProperty"/>
+        </methods>
+      </class> <!-- seleniumTest.SearchListPageTest -->
+      <class name="seleniumTest.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SearchLocationInputTest"/>
+        </methods>
+      </class> <!-- seleniumTest.HomePageTest -->
+    </classes>
+  </test> <!-- Zoopla Test(failed) -->
+</suite> <!-- Failed suite [All Pages test] -->

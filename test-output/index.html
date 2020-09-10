@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Web_Pages_test">
+              <span class="suite-name border-passed">All Web Pages test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Web_Pages_test">
+                    <span>C:\MyWorkCenter\codeExercises\eclipseWorkspace\ZooplaSiteTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Web_Pages_test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Web_Pages_test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Web_Pages_test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Web_Pages_test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Web_Pages_test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Web_Pages_test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Web_Pages_test" class="hide-methods passed suite-All_Web_Pages_test"> (hide)</a> <!-- hide-methods passed suite-All_Web_Pages_test -->
+                      <a href="#" panel-name="suite-All_Web_Pages_test" class="show-methods passed suite-All_Web_Pages_test"> (show)</a> <!-- show-methods passed suite-All_Web_Pages_test -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Web_Pages_test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.ListAgentPageTest" hash-for-method="AgentListedPropertiesTest">AgentListedPropertiesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.SearchListPageTest" hash-for-method="ClickFifthProperty">ClickFifthProperty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.SearchListPageTest" hash-for-method="FifthListTest">FifthListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.HomePageTest" hash-for-method="HomePageTitleTest">HomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.SearchListPageTest" hash-for-method="ListDescOrderTest">ListDescOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.SearchListPageTest" hash-for-method="SearchListPageTitleTest">SearchListPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.HomePageTest" hash-for-method="SearchLocationInputTest">SearchLocationInputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.DesiredListPageTest" hash-for-method="TitleOfListTest">TitleOfListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.HomePageTest" hash-for-method="ZooplaLogoTest">ZooplaLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.ListAgentPageTest" hash-for-method="agentPageTest">agentPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.SearchListPageTest" hash-for-method="fifthListNegativeTest">fifthListNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.ListAgentPageTest" hash-for-method="fifthPropInAgentsListTest">fifthPropInAgentsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Web_Pages_test" title="seleniumTest.DesiredListPageTest" hash-for-method="getAgentPageTest">getAgentPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Web_Pages_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Web_Pages_test" class="panel All_Web_Pages_test">
+          <div class="suite-All_Web_Pages_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumTest.ListAgentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AgentListedPropertiesTest">
+                  </a> <!-- AgentListedPropertiesTest -->
+                  <span class="method-name">AgentListedPropertiesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="agentPageTest">
+                  </a> <!-- agentPageTest -->
+                  <span class="method-name">agentPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fifthPropInAgentsListTest">
+                  </a> <!-- fifthPropInAgentsListTest -->
+                  <span class="method-name">fifthPropInAgentsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Web_Pages_test-class-passed -->
+          <div class="suite-All_Web_Pages_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumTest.DesiredListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TitleOfListTest">
+                  </a> <!-- TitleOfListTest -->
+                  <span class="method-name">TitleOfListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAgentPageTest">
+                  </a> <!-- getAgentPageTest -->
+                  <span class="method-name">getAgentPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Web_Pages_test-class-passed -->
+          <div class="suite-All_Web_Pages_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumTest.SearchListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickFifthProperty">
+                  </a> <!-- ClickFifthProperty -->
+                  <span class="method-name">ClickFifthProperty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FifthListTest">
+                  </a> <!-- FifthListTest -->
+                  <span class="method-name">FifthListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListDescOrderTest">
+                  </a> <!-- ListDescOrderTest -->
+                  <span class="method-name">ListDescOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchListPageTitleTest">
+                  </a> <!-- SearchListPageTitleTest -->
+                  <span class="method-name">SearchListPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fifthListNegativeTest">
+                  </a> <!-- fifthListNegativeTest -->
+                  <span class="method-name">fifthListNegativeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Web_Pages_test-class-passed -->
+          <div class="suite-All_Web_Pages_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTitleTest">
+                  </a> <!-- HomePageTitleTest -->
+                  <span class="method-name">HomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchLocationInputTest">
+                  </a> <!-- SearchLocationInputTest -->
+                  <span class="method-name">SearchLocationInputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ZooplaLogoTest">
+                  </a> <!-- ZooplaLogoTest -->
+                  <span class="method-name">ZooplaLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Web_Pages_test-class-passed -->
+        </div> <!-- panel All_Web_Pages_test -->
+        <div panel-name="test-xml-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\MyWorkCenter\codeExercises\eclipseWorkspace\ZooplaSiteTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;2&quot; name=&quot;All Web Pages test&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;Zoopla Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumTest.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;seleniumTest.SearchListPageTest&quot;/&gt;
+      &lt;class name=&quot;seleniumTest.DesiredListPageTest&quot;/&gt;
+      &lt;class name=&quot;seleniumTest.ListAgentPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Zoopla Test --&gt;
+&lt;/suite&gt; &lt;!-- All Web Pages test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Web Pages test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Zoopla Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Web Pages test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Web Pages test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Web_Pages_test');
+function tableData_All_Web_Pages_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAgentPageTest')
+data.setCell(0, 2, 'seleniumTest.DesiredListPageTest')
+data.setCell(0, 3, 6909);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FifthListTest')
+data.setCell(1, 2, 'seleniumTest.SearchListPageTest')
+data.setCell(1, 3, 2700);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchLocationInputTest')
+data.setCell(2, 2, 'seleniumTest.HomePageTest')
+data.setCell(2, 3, 2263);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickFifthProperty')
+data.setCell(3, 2, 'seleniumTest.SearchListPageTest')
+data.setCell(3, 3, 1541);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AgentListedPropertiesTest')
+data.setCell(4, 2, 'seleniumTest.ListAgentPageTest')
+data.setCell(4, 3, 206);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchListPageTitleTest')
+data.setCell(5, 2, 'seleniumTest.SearchListPageTest')
+data.setCell(5, 3, 175);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TitleOfListTest')
+data.setCell(6, 2, 'seleniumTest.DesiredListPageTest')
+data.setCell(6, 3, 108);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ZooplaLogoTest')
+data.setCell(7, 2, 'seleniumTest.HomePageTest')
+data.setCell(7, 3, 89);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HomePageTitleTest')
+data.setCell(8, 2, 'seleniumTest.HomePageTest')
+data.setCell(8, 3, 43);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fifthListNegativeTest')
+data.setCell(9, 2, 'seleniumTest.SearchListPageTest')
+data.setCell(9, 3, 19);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'agentPageTest')
+data.setCell(10, 2, 'seleniumTest.ListAgentPageTest')
+data.setCell(10, 3, 7);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ListDescOrderTest')
+data.setCell(11, 2, 'seleniumTest.SearchListPageTest')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'fifthPropInAgentsListTest')
+data.setCell(12, 2, 'seleniumTest.ListAgentPageTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['All_Web_Pages_test']= { tableData: data, tableDiv: 'times-div-All_Web_Pages_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-All_Web_Pages_test">
+              </div> <!-- times-div-All_Web_Pages_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Web Pages test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Web_Pages_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HomePageTitleTest</span>
+                <span class="method-start">5530 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.SearchListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5576 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchListPageTitleTest</span>
+                <span class="method-start">12634 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.DesiredListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12810 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TitleOfListTest</span>
+                <span class="method-start">25689 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.ListAgentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25798 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">agentPageTest</span>
+                <span class="method-start">46845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">46853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ZooplaLogoTest</span>
+                <span class="method-start">46867 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.SearchListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FifthListTest</span>
+                <span class="method-start">46958 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.DesiredListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAgentPageTest</span>
+                <span class="method-start">49659 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.ListAgentPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AgentListedPropertiesTest</span>
+                <span class="method-start">56569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">56776 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchLocationInputTest</span>
+                <span class="method-start">56786 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.SearchListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ListDescOrderTest</span>
+                <span class="method-start">59050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.ListAgentPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fifthPropInAgentsListTest</span>
+                <span class="method-start">59053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">59053 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.SearchListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClickFifthProperty</span>
+                <span class="method-start">59070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fifthListNegativeTest</span>
+                <span class="method-start">60612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60635 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.SearchListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60668 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumTest.DesiredListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">60717 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

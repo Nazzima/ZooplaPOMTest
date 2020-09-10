@@ -4,6 +4,7 @@
   <test name="Zoopla Test" preserve-order="true" >
    <classes>
 <class name="seleniumTest.HomePageTest"/>
+<class name="seleniumTest.HomePageSearchTest"/>    
 <class name="seleniumTest.SearchListPageTest"/>    
 <class name="seleniumTest.DesiredListPageTest"/>
 <class name="seleniumTest.ListAgentPageTest"/> 

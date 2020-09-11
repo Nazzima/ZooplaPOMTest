@@ -1,6 +1,6 @@
 # ZooplaPOMTest
-Test Automation of Zoopla website pages for Page Object Model (POM)  coding challenge assignment using Java,Selenium,TestNg,Jenkins &amp; Github.
-I did this project for the Selenium Coding Challenge .See below for the instructions:
+Test Automation of Zoopla website pages for coding challenge assignment using Java,Selenium,TestNg,Jenkins & Github.
+See below for the instructions:
 Steps:
 1) go to this url -https://www.zoopla.co.uk/
 2) Input location London and click submit
@@ -22,9 +22,12 @@ Solution Expectations:
 I have finished this assignment in a week. In Eclipse, I created 4 classes for 4 web pages of Zoopla site with web elements defined properly here.
 Then tests these pages using those web elements to do the expected actions.To do this ,I made 5 Test classes: 1 for each page & one extra for home page using different 
 set of search input values from Excel sheet(used Data Provider:TestNG). Used testng.xml file to run the test cases of all web pages.The test reports are created after the test run.
-Pushed the code to Github & used Jenkins to run the tests again. 
-This test is good example for smoke testing!
+Pushed the code to Github & used Jenkins to run the tests again.Jenkins is not required for the coding challenge,but I challenged myself with this extra step.
+This test automation is good example for smoke testing!
+
 Find page definition under src/main 
 Find test definition under src/test
 Check tesng.xml file under src/main/resources
 Check test reports under test-output
+
+I will be keep updating!

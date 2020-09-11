@@ -19,15 +19,16 @@ Solution Expectations:
 5. Use valid required assertions
 6. Share your GIT Repo or ZIP file.
 
-I have finished this assignment in a week. In Eclipse, I created 4 classes for 4 web pages of Zoopla site with web elements defined properly here.
+I have finished this assignment in a week. In Eclipse, I created 4 classes for 4 pages of Zoopla site with Page Factory design pattern for the web elements.
 Then tests these pages using those web elements to do the expected actions.To do this ,I made 5 Test classes: 1 for each page & one extra for home page using different 
 set of search input values from Excel sheet(used Data Provider:TestNG). Used testng.xml file to run the test cases of all web pages.The test reports are created after the test run.
 Pushed the code to Github & used Jenkins to run the tests again.Jenkins is not required for the coding challenge,but I challenged myself with this extra step.
 This test automation is good example for smoke testing!
+
 
 Find page definition under src/main 
 Find test definition under src/test
 Check tesng.xml file under src/main/resources
 Check test reports under test-output
 
-I will be keep updating!
+I will be keep updating! Might add Cucumber in the framework.

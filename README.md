@@ -35,6 +35,8 @@ Check tesng.xml file under src/main/resources
 
 Check test reports under test-output: See Reports Below
 
+htmlReport:  https://user-images.githubusercontent.com/60820662/93220047-0149d080-f73a-11ea-9256-c7458fa409f0.png
+
 Extent Report : https://user-images.githubusercontent.com/60820662/93215027-e5433080-f733-11ea-9f93-7330e9602474.png
 
 Test Report from Jenkins :https://user-images.githubusercontent.com/60820662/93215194-115eb180-f734-11ea-8f96-9c131b846bb8.png

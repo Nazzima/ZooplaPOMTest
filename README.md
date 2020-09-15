@@ -33,7 +33,7 @@ Find test definitions under src/test/java/seleniumTest:HomePageTest,SearchListPa
 
 Check tesng.xml file under src/main/resources
 
-Check test reports under test-output: See Reports Below
+Check test reports under test-output or Click the links below to see Reports 
 
 htmlReport:  https://user-images.githubusercontent.com/60820662/93220047-0149d080-f73a-11ea-9256-c7458fa409f0.png
 

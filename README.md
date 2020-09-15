@@ -27,8 +27,8 @@ Pushed the code to Github & used Jenkins to run the tests again.Jenkins is not r
 This test automation is good example for smoke testing!
 
 
-Find page definition under src/main 
-Find test definition under src/test
+Find page definition under src/main/java/webPages:HomePage,SearchListPage,DesiredListPage,ListAgentPage & HomeSearchPage
+Find test definition under src/test/java/
 Check tesng.xml file under src/main/resources
 Check test reports under test-output
 

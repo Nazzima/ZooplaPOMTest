@@ -34,7 +34,13 @@ Find test definitions under src/test/java/seleniumTest:HomePageTest,SearchListPa
 Check tesng.xml file under src/main/resources
 
 Check test reports under test-output: See Reports Below
-https://user-images.githubusercontent.com/60820662/93215027-e5433080-f733-11ea-9f93-7330e9602474.png
-https://user-images.githubusercontent.com/60820662/93215039-e7a58a80-f733-11ea-982f-18bd5e661e71.png
+
+Extent Report : https://user-images.githubusercontent.com/60820662/93215027-e5433080-f733-11ea-9f93-7330e9602474.png
+
+Test Report from Jenkins :https://user-images.githubusercontent.com/60820662/93215194-115eb180-f734-11ea-8f96-9c131b846bb8.png
+
+TestNG Suite Results: https://user-images.githubusercontent.com/60820662/93215039-e7a58a80-f733-11ea-982f-18bd5e661e71.png
+
+
 
 I will be keep updating! Might add Cucumber in the framework.

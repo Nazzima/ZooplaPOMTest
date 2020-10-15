@@ -20,8 +20,7 @@ Solution Expectations:
 6. Share your GIT Repo or ZIP file.
 
 My Solution:
-
-   In Eclipse, I created 4 classes for 4 pages of Zoopla site with Page Factory design pattern for the web elements.
+       In Eclipse, I created 4 classes for 4 pages of Zoopla site with Page Factory design pattern for the web elements.
 Then tests these pages using those web elements to do the expected actions.To do this ,I made 5 Test classes: 1 for each page & one extra for home page using different 
 sets of search input test data from Excel sheet(used Data Provider:TestNG). Used testng.xml file to run the test cases of all web pages.The test reports are created after the test run.
 Pushed the code to Github & used Jenkins to run the tests again.Jenkins is not required for the coding challenge,but I challenged myself with this extra step.

@@ -44,4 +44,3 @@ Test Report from Jenkins :https://user-images.githubusercontent.com/60820662/932
 TestNG Suite Results: https://user-images.githubusercontent.com/60820662/93215039-e7a58a80-f733-11ea-982f-18bd5e661e71.png
 
 
-I will be keep updating! Might add Cucumber in the framework.
